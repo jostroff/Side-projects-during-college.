@@ -5,12 +5,14 @@ Ender's Game.
   Objective: 
       To get one of your players into the other person's goal, located in their color as a long line in the middle of their side.
   Way it works:
-      Players move and bump into each other. 
-      If shot, the player "freezes" and their number turns black and retains the velocity they had at the time of getting shot.
+      Players move and shoot and bump into each other.
+        They can only move to increase their velocity. 
+        They can only shoot horizontally, towards their opponent's side.
+      If shot, the opponent player "freezes" and their number turns black and retains the velocity they had at the time of getting shot.
       A player can only score if they are not frozen.
-      There are four players that can score one point and shoot.
-      The doctor, however, can't shoot. 
-        It can instead "unfreeze" other players by bumping into them, allowing them to move/shoot as before.
+      There are four players that can score one point and shoot, but they can only score and shoot if they are not frozen.
+      The doctor, (represented by the letter "D") however, cannot shoot at all.
+        It can instead "unfreeze" other players by bumping into them, allowing them to move/shoot/score as before.
         It scores two points if it goes into the goal.
       To note: You have more momentum on your own side. This is to give you leveraging power in case an opponent bumps into you.
       
