@@ -1,8 +1,26 @@
 
 
-For Ender's Game, 
-  AI game controls: JIKL for movement, UO for switch, N for shoot, 0 to reset the score to 0, and 9 to reset the current game to 
-    its initial position. 
+Ender's Game.
+
+  Objective: 
+      To get one of your players into the other person's goal, located in their color as a long line in the middle of their side.
+  Way it works:
+      Players move and bump into each other. 
+      If shot, the player "freezes" and their number turns black and retains the velocity they had at the time of getting shot.
+      A player can only score if they are not frozen.
+      There are four players that can score one point and shoot.
+      The doctor, however, can't shoot. 
+        It can instead "unfreeze" other players by bumping into them, allowing them to move/shoot as before.
+        It scores two points if it goes into the goal.
+      To note: You have more momentum on your own side. This is to give you leveraging power in case an opponent bumps into you.
+      
+      
+  AI game controls: JIKL for movement, UO for switch, N for shoot.
   Two-player controls: 
-    Player 1 (right): Arrow keys for movement, OI for switch, semicolon for shoot. 
-    Player 2 (left): WASD for movement, XZ for switch, C for shoot.
+      Player 1 (right): Arrow keys for movement, OI for switch, semicolon for shoot. 
+      Player 2 (left): WASD for movement, XZ for switch, C for shoot.
+  Other controls: 0 to reset the score to 0, and 9 to reset the current game to its initial position. 
+  
+  
+  The "end game" is up to the people playing. 
+  If they choose to go to 10 points, then they can reset the score to 0 afterwards. There is no set limit though.
