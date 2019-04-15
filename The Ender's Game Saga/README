@@ -8,7 +8,7 @@ Ender's Game.
       Players move and shoot and bump into each other.
         They can only move to increase their velocity. 
         They can only shoot horizontally, towards their opponent's side.
-      If shot, the opponent player "freezes" and their number turns black and the player retains the velocity it had at the 
+      If shot, the opponent player "freezes" and its number turns black and the player retains the velocity it had at the 
         time of getting shot.
       A player can only score if it is not frozen.
       There are four players that can score one point and shoot, but they can only shoot if they are not frozen.
