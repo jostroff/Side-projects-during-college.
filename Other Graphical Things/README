@@ -1,0 +1,10 @@
+Transform: A graphical simulation of a fourier transformation in any given polygon for up to 25 sides, with 25 iterations.
+    Up/down arrow keys to increase/decrease iterations.
+    Right/left arrow keys to increase/decrease number of sides.
+RevolveAroundMe: A fun physics simulation of gravity-esque revolutions.
+    JIKL for movement of the central block. Space for revolution. M for clear. N to restart.
+SuperTicTacToe: A nine board Tic-Tac-Toe game.
+    You press one square in a little board, and then the corresponding square on the big board is where the user can go.
+    Game is won when the big squares get a tic-tac-toe.
+
+The rest are straightforward. Tinker around and see which ones are fun.
