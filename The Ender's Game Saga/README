@@ -11,7 +11,7 @@ Ender's Game.
       If shot, the opponent player "freezes" and its number turns black and the player retains the velocity it had at the 
         time of getting shot.
       A player can only score if it is not frozen.
-      There are four players that can score one point and shoot, but they can only shoot if they are not frozen.
+      There are four players on a person's side that can score one point and shoot, but they can only shoot if they are not frozen.
       The doctor, (represented by the letter "D") however, cannot shoot at all.
         It can instead "unfreeze" other players by bumping into them, allowing them to move/shoot/score as before.
         It scores two points if it goes into the goal.
