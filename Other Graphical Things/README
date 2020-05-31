@@ -1,3 +1,5 @@
+These are .jar files for projects that I wrote mostly in high school and early college.
+
 Transform: A graphical simulation of a fourier transformation in any given polygon for up to 25 sides, with 25 iterations.
     Up/down arrow keys to increase/decrease iterations.
     Right/left arrow keys to increase/decrease number of sides.
