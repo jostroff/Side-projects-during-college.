@@ -1,0 +1,10 @@
+Code for MasterMind, a guessing game that utilized an efficient algorithm for Data Structures and Algorithms.
+
+Initially, the player must give a number of different letters and positions that their combination can have for the computer 
+to play against them and guess the final combination correctly. After each guess, the human then tells them how many colors
+were in the right position, and how many colors were in the wrong position but correct to be used eventually anyway. Once the 
+computer guesses the right combination, the game is complete.
+
+The algorithm works by running through the list of possible positions and elminating false possible moves. The challenge was getting
+this algorithm to work quickly with a large number of possibilities, and overall, the computer can guess most combinations within
+ten moves.
