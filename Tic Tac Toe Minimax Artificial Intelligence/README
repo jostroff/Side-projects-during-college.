@@ -1,0 +1,21 @@
+This is code for the artificial intelligence of Super Tic-Tac-Toe.
+
+The game has nine boards to play tic-tac-toe in, with rules for winning in each like a normal game. 
+
+The difference is that when one person picks a given square on a smaller board to place an X or O into, the next turn that the 
+other person must complete has to be in the board corresponding to the square just played. In other words, if I move into the
+top right corner square of the middle board, then the next player has to play tic-tac-toe within the right corner board in the
+larger tic-tac-toe game. Once one board is won, that board is marked with the piece corresponding to the player who won it, and 
+as a square, that board is completed in the big picture. Once the larger tic-tac-toe game is won using those corresponding board
+mappings of player wins, then the game is completed.
+
+For the Artificial Intelligence moves, the algorithm used was Minimax, which stands for minimum/maximum, since the game-
+theoretic goal is to maximize your own utility function and minimize the other person's by adding up nodes in a recursive
+tree that stems from player moves. A win is therefore marked with 1, a loss -1, and a tie 0 at the ending leaves of a tree.
+The algorithm works by recursively predicting each person's best move in a small, regular board scenario, but for the algorithm
+to work at the larger, nine-board scale, that many recursive points would run into a stack-overflow error, since there would be 
+too many nodes to loop through. So instead, to combat this, I used alpha-beta pruning, which decides a heuristic value for where
+the algorithm would cut off at, and how many end-game iterations the algorithm would run through. My heuristic could therefore
+evaluate five moves ahead. The result is that the AI can beat most people who play against it. I was very happy about this 
+learning experience, since it allowed me to think about the scalability of algorithms, and I was able to understand how to use
+judgment, prediction, and analysis to make an efficient and effective AI.
