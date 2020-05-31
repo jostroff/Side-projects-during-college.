@@ -8,4 +8,4 @@ Also includes an interactive online sketchboard written in HTML/CSS, Javascript,
 
 Note: I published code for certain independent and academic projects here, but also one post-college project in the "Side-projects-after-college" folder on my github: https://github.com/jostroff/Side-Projects-After-College.
 
-The code for the final project for my Web Development class, White Board, was posted into a zip folder, and code for projects such as Ender's Game, a high school project, the Tic-Tac-Toe minimax algorithm for Artificial Intelligence, and MasterMind for Data Structures and Algorithms are all here.
+The code of the final project for my Web Development class, White Board, was posted into a zip folder, and code for projects such as Ender's Game, a high school project, the Tic-Tac-Toe minimax algorithm for Artificial Intelligence, and MasterMind for Data Structures and Algorithms are all here.
